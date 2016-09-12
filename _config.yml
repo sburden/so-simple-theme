@@ -1,15 +1,16 @@
 # Site wide configuration
 
-title: Site Title
+title: sburden@uw
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: Asst Prof in UW EE
+logo: sburdensq.png
 search: true
 url: http://localhost:4000
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+#permalink:   /:categories/:title/
+permalink: /:year-:month-:day-:title/
 markdown:    kramdown
 highlighter: rouge
 sass:
